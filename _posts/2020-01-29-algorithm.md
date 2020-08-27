@@ -2,6 +2,7 @@
 layout: post
 title: 프로그래머스, 완주하지 못한 선수
 tags: [programmers, hash, python]
+date: 2020-01-29
 ---
 
 백준 알고리즘으로 C언어 공부를 하고 있는데 파이썬도 틈틈이 해보기 위해 프로그래머스를 시작하기로 했다.
@@ -68,8 +69,7 @@ def solution(participant, completion):
 ```
 
 -> 문제 설명 중에 'completion의 길이는 participant의 길이보다 1 작습니다.'가 있었다... 하나만 찾으면 되는 거 였다..ㅋ
-
--> 혹시 sort를 했는데 마지막 원소가 정답인 경우에는 if에서 걸리지 않는다. 그래서 return을 하나 더 추가했다.
+혹시 sort를 했는데 마지막 원소가 정답인 경우에는 if에서 걸리지 않는다. 그래서 return을 하나 더 추가했다.
 
 **-> sort()를 잘 써먹자...**
 
@@ -102,13 +102,14 @@ def solution(participant, completion):
 - Counter끼리 더하거나(+) 빼면(-) 같은 key에 대해 value가 연산이 됨, 교집합(&) 연산과 합집합(|)도 가능함
 - `+[Counter], -[Counter]`도 가능
 - elements()	value만큼 key를 iterate하게 return한다. value가 1보다 작으면 해당 key를 리턴하지 않음
-  - ```c = Counter(a=4, b=2, c=0, d=-2) >>> sorted(c.elements()) ['a', 'a', 'a', 'a', 'b', 'b']```
 
-most_common([n])	가장 value가 큰 n개의 list를 리턴, n을 생략하면 모든 원소를 리턴, n이 같을 땐 임의로 리턴
- 
-
+```python
+c = Counter(a=4, b=2, c=0, d=-2) 
+sorted(c.elements()) # ['a', 'a', 'a', 'a', 'b', 'b']
+most_common([n])
+```
+> 가장 value가 큰 n개의 list를 리턴, n을 생략하면 모든 원소를 리턴, n이 같을 땐 임의로 리턴
  
 ### 참고
 - https://docs.python.org/ko/3.6/library/collections.html?highlight=counter#collections.Counter
 - 코딩테스트 URL : https://programmers.co.kr/learn/courses/30/lessons/42576
- 
