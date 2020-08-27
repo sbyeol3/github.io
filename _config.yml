@@ -13,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-    <h1>알고리즘 풀이를 위한 Velog ✍️</h1>
+    <h1>알고리즘 풀이를 위한 Velog 🧑🏻‍💻</h1>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
@@ -68,7 +68,7 @@ theme_settings:
   post_navigation: false
 
 # PAGINATION
-paginate: 5
+paginate: 7
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
