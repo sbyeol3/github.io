@@ -99,9 +99,9 @@ def solution(participant, completion):
 - dict의 서브클래스, 해시테이블의 객체를 카운팅하는 데 사용
 - 원소가 key로 저장되고 원소들의 counts가 value로 저장되어 있으며 순서가 없는 collection
 - 0이나 음의 정수 또한 value에 사용할 수 있음
-- Counter끼리 더하거나(+) 빼면(-) 같은 key에 대해 value가 연산이 됨, 교집합(&) 연산과 합집합(|)도 가능함
+- Counter끼리 더하거나`(+)` 빼면`(-)` 같은 key에 대해 value가 연산이 됨, 교집합`(&)` 연산과 합집합`(|)`도 가능함
 - `+[Counter], -[Counter]`도 가능
-- elements()	value만큼 key를 iterate하게 return한다. value가 1보다 작으면 해당 key를 리턴하지 않음
+- `elements()` : value만큼 key를 iterate하게 return한다. value가 1보다 작으면 해당 key를 리턴하지 않음
 
 ```python
 c = Counter(a=4, b=2, c=0, d=-2) 
