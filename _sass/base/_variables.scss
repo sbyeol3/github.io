@@ -1,8 +1,12 @@
 // Typography
 // $font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
-$font-family-main: -apple-system, Helvetica, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", 나눔고딕, "Nanum Gothic", "Noto Sans KR", "Noto Sans CJK KR", arial, sans-serif !default;
-$font-family-headings: -apple-system, Helvetica, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", 나눔고딕, "Nanum Gothic", "Noto Sans KR", "Noto Sans CJK KR", arial, sans-serif !default;
-$font-size: 1.10em !default;
+$font-family-main: -apple-system, Helvetica, "Apple SD Gothic Neo",
+  "Malgun Gothic", "맑은 고딕", 나눔고딕, "Nanum Gothic", "Noto Sans KR",
+  "Noto Sans CJK KR", arial, sans-serif !default;
+$font-family-headings: -apple-system, Helvetica, "Apple SD Gothic Neo",
+  "Malgun Gothic", "맑은 고딕", 나눔고딕, "Nanum Gothic", "Noto Sans KR",
+  "Noto Sans CJK KR", arial, sans-serif !default;
+$font-size: 1.1em !default;
 
 // Padding
 $padding-large: 17% !default;
@@ -12,12 +16,17 @@ $padding-x-small: 3% !default;
 // Brand colours
 $brand-color: #fff !default;
 $background-color: #fff !default;
-$border-color: rgba(0, 0, 0, 0.1) !default; // rgba recommended if using feature images
+$border-color: rgba(
+  0,
+  0,
+  0,
+  0.1
+) !default; // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #383838 !default;
-$link-color: #F9D533 !default;
-$selection-color: #D4D4D4 !default; // visible when highlighting text
+$link-color: #007042 !default;
+$selection-color: #d4d4d4 !default; // visible when highlighting text
 
 // Tags color
 $tags-color: #b0b0b0 !default;
@@ -33,6 +42,6 @@ $feature-image-text-color: #fff !default;
 $feature-image-size: cover !default; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #F9D533 !default;
+$header-desc-background-color: #007042 !default;
 $header-desc-text-color: #111 !default;
-$header-desc-link-color: #02453D !default;
+$header-desc-link-color: #02453d !default;
